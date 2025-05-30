@@ -1,0 +1,19 @@
+{
+  "entities": {
+    "person": [list of names],
+    "organization": [list of organizations],
+    "location": [list of locations],
+    "technology": [list of technologies],
+    "threat_actor": [list of named or anonymous threat actors],
+    "vulnerabilities": [list of specific vulnerabilities],
+    "events": [list of key events]
+  },
+  "threat_analysis": {
+    "threat_type": "One of: Physical, Cybersecurity, Political, Other",
+    "description": "Summary of the core threat described",
+    "severity": "Low | Medium | High | Critical",
+    "likelihood": "Unlikely | Possible | Likely | Certain",
+    "recommended_actions": ["List of specific mitigations"]
+  },
+  "confidence": 0.0 to 1.0
+}

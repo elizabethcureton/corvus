@@ -1,0 +1,19 @@
+{
+  "entities": {
+    "person": [],
+    "organization": [],
+    "location": [],
+    "technology": [],
+    "threat_actor": [],
+    "vulnerabilities": [],
+    "events": []
+  },
+  "threat_analysis": {
+    "threat_type": "",
+    "description": "",
+    "severity": "",
+    "likelihood": "",
+    "recommended_actions": []
+  },
+  "confidence": 0.0
+}
