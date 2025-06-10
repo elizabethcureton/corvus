@@ -1,0 +1,9 @@
+Versa Networks has established and published Firewall Requirements since 2015 and System Hardening requirements since 2017 
+A vulnerability was recently discovered in Versa Director (CVE-2024-39717). This vulnerability allowed potentially malicious files to be uploaded by users with Provider-Data-Center-Admin or Provider-Data-Center-System-Admin privileges.  
+Impacted customers had not implemented system hardening and firewall guidelines mentioned above, leaving a management port exposed on the internet that provided the threat actors with initial access. 
+Versa has released a patch for the vulnerability, and we are actively working with all customers to ensure the patch and system hardening guidelines are applied. 
+Exploitation Status 
+
+This vulnerability has been exploited in at least one known instance by an Advanced Persistent Threat actor.  
+Although the vulnerability is difficult to exploit, it's rated "High" and affects all Versa SD-WAN customers using Versa Director, that have not implemented the system hardening and firewall guidelines. 
+CISA has added this vulnerability to its "Known Exploited Vulnerabilities" list (CVE-2024-39717).
