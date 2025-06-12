@@ -1,13 +1,25 @@
 {
+  "report_id": "",
+  "summary": "",
+  "timeframe": {
+    "reported_at": "",
+    "began_at": ""
+  },
+  "reporter_info": {
+    "id": "",
+    "role": "",
+    "contact": []
+  },
   "entities": {
     "person": [],
     "organization": [],
     "location": [],
     "technology": [],
     "threat_actor": [],
-    "vulnerabilities": [],
-    "events": []
+    "vulnerabilities": []
   },
+  "assets_affected": [],
+  "impact": [],
   "threat_analysis": {
     "threat_type": "",
     "description": "",
@@ -15,5 +27,6 @@
     "likelihood": "",
     "recommended_actions": []
   },
-  "confidence": 0.0
+  "confidence": 0.0,
+  "raw_message": ""
 }

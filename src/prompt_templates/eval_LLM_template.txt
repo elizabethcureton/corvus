@@ -1,4 +1,15 @@
 {
+  "report_id": "Externally generated SHA256 hash to be injected",
+  "summary": "A one-sentence overview highlighting the most important details of the report",
+  "timeframe": {
+    "reported_at": "YYYY-MM-DDThh:mm:ss±hh:mm",
+    "began_at":     "YYYY-MM-DDThh:mm:ss±hh:mm"
+  },
+  "reporter_info": {
+    "id":        "Name or other key identifier",
+    "role":      "Occupation or description of who the reporter is",
+    "contact":   [list of means of contact to reach reporter]
+  },
   "entities": {
     "person": [list of names],
     "organization": [list of organizations],
@@ -6,8 +17,11 @@
     "technology": [list of technologies],
     "threat_actor": [list of named or anonymous threat actors],
     "vulnerabilities": [list of specific vulnerabilities],
-    "events": [list of key events]
   },
+  "assets_affected": [
+    [list of assets affected by reported incident]
+  ],
+    "impact": [list of results or consequences of reported incident]
   "threat_analysis": {
     "threat_type": "One of: Physical, Cybersecurity, Political, Other",
     "description": "Summary of the core threat described",
@@ -16,4 +30,5 @@
     "recommended_actions": ["List of specific mitigations"]
   },
   "confidence": 0.0 to 1.0
+  "raw_message": "Full unparsed text of the report",
 }
