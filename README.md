@@ -60,6 +60,8 @@ report_id=None summary=None timeframe=None reporter_info=None entities=Entities(
 
 # License
 
+This code is free for personal, educational, or research use only. **Commercial use is prohibited without prior permission.**
+
 # Contact
 
 # Developer Notes
