@@ -1,9 +1,12 @@
-Versa Networks has established and published Firewall Requirements since 2015 and System Hardening requirements since 2017 
-A vulnerability was recently discovered in Versa Director (CVE-2024-39717). This vulnerability allowed potentially malicious files to be uploaded by users with Provider-Data-Center-Admin or Provider-Data-Center-System-Admin privileges.  
-Impacted customers had not implemented system hardening and firewall guidelines mentioned above, leaving a management port exposed on the internet that provided the threat actors with initial access. 
-Versa has released a patch for the vulnerability, and we are actively working with all customers to ensure the patch and system hardening guidelines are applied. 
-Exploitation Status 
+Subject: Weird network outage happening right now
 
-This vulnerability has been exploited in at least one known instance by an Advanced Persistent Threat actor.  
-Although the vulnerability is difficult to exploit, it's rated "High" and affects all Versa SD-WAN customers using Versa Director, that have not implemented the system hardening and firewall guidelines. 
-CISA has added this vulnerability to its "Known Exploited Vulnerabilities" list (CVE-2024-39717).
+Hey IT team,
+
+Just wanted to give you a heads up — the network’s been acting super weird since around 10:30 this morning. My laptop keeps dropping connection randomly, and I’ve heard a few others in the office having the same problem. It seems worse near the New York and Chicago offices.
+
+What’s really odd is I noticed some strange pop-ups asking me to enter my login info, but they didn’t look like the usual company login screen — kinda sketchy. I didn’t enter anything, but it felt like some kind of phishing or hack attempt. Also saw my mouse move a bit on its own right before the connection dropped.
+
+No idea if this is part of any planned maintenance or if something else is going on, but figured you’d want to know ASAP. Let me know if you need me to check anything on my end or provide more details.
+
+Thanks!
+James Smith with the Redmont Research Team
