@@ -1,8 +1,15 @@
 Corvus
+# CORVUS
+
+![alt text](crow.png)
+
 # Getting Started
 
 ## Prerequisites
+
 ⛏️✨*under construction*✨⛏️
+
+## Installation
 
 1. Set up an account with OpenRouter at https://openrouter.ai/, or use the compatible LLM of your choice (e.g. an OpenAI model)
 2. Get a free API Key
@@ -21,9 +28,11 @@ It is designed to receive text input, extract critical data points, summarize im
 A user can programmatically analyze intelligence input, such as a grassroots report to a tip line, and view the output in raw data form or as a document.
 
 ## Sample Case
-See the following input and output:
+### Input
 
-```
+Here is a sample email report about suspicious network problems sent to a company's IT department. The IT team can triage this message with Corvus.
+
+```text
 Subject: Weird network outage happening right now
 
 Hey IT team,
@@ -38,13 +47,19 @@ Thanks!
 James Smith with the Redmont Research Team
 ```
 
-Above is a sample email report about suspicious network problems sent to a company's IT department. The IT team can triage this message for the following output:
-
-JSON Output
+### Output
+#### JSON
 
 report_id=None summary=None timeframe=None reporter_info=None entities=Entities(person=['James Smith'], organization=['Redmont Research Team'], location=['New York', 'Chicago'], technology=['network'], threat_actor=[], vulnerabilities=['Unidentified login pop-ups', 'Unidentified mouse movement']) assets_affected=[] impact=[] threat_analysis=ThreatAnalysis(threat_type='Cybersecurity', description='There has been a network outage with unusual login pop-ups and suspicious mouse movement, potentially indicating a phishing or hacking attempt.', severity='Medium', likelihood='Likely', recommended_actions=['Investigate the network for security issues.', 'Change passwords for all users affected.', 'Ensure antivirus and security software is up to date.', 'Monitor network activity for further anomalies.']) confidence=0.75 raw_message=None
 
+#### PDF Report
 ![alt text](image.png)
+
+# Contributing
+
+# License
+
+# Contact
 
 # Developer Notes
 
