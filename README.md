@@ -1,6 +1,3 @@
-Corvus
-# CORVUS
-
 ![alt text](crow.png)
 
 # Getting Started
@@ -32,7 +29,9 @@ A user can programmatically analyze intelligence input, such as a grassroots rep
 
 Here is a sample email report about suspicious network problems sent to a company's IT department. The IT team can triage this message with Corvus.
 
-```text
+
+___
+<p><i>
 Subject: Weird network outage happening right now
 
 Hey IT team,
@@ -45,7 +44,9 @@ No idea if this is part of any planned maintenance or if something else is going
 
 Thanks!
 James Smith with the Redmont Research Team
-```
+
+</i></p>
+___
 
 ### Output
 #### JSON
